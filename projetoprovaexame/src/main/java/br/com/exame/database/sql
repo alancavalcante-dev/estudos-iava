@@ -1,0 +1,13 @@
+create database db_store;
+
+use db_store;
+
+create table tbl_client (
+id integer primary key auto_increment,
+name varchar(100) not null,
+address varchar(100) not null,
+number integer not null,
+email varchar(100) not null,
+phone varchar(100) not null
+)
+
